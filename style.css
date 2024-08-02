@@ -1,0 +1,99 @@
+@import url('https://cdn-uicons.flaticon.com/2.5.1/uicons-bold-rounded/css/uicons-bold-rounded.css');
+
+body {
+    font-family: 'Pacifico';
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.form1 {
+    border: 2px solid transparent;
+    background-color: rgb(181, 181, 181);
+    max-width: 1400px;
+    margin-left: 250px;
+    text-align: center;
+}
+
+.fieldh1 {
+    background-color: rgb(181, 181, 181);
+    height: 40px;
+    text-align: center;
+    font-size: 22pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container1 {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.fieldbox1,
+.fieldbox2,
+.fieldbox3,
+.fieldbox4 {
+    flex: 2;
+    min-width: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/*Tooltips*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltipcpftext,
+.tooltipcnstext,
+.tooltipsinantext,
+.tooltipprontuariotext,
+.tooltipidsocialtext,
+.tooltipnameciviltext,
+.tooltipnamesocialtext,
+.tooltipnamemaetext,
+.tooltipdatanasctext,
+.tooltipracatext,
+.tooltipsexonasctext,
+.tooltipidgenerotext,
+.tooltiporisexualtext,
+.tooltipcidadeuftext,
+.tooltippaisnasctext,
+.tooltipnacitext,
+.tooltipsituacaotext,
+.tooltipescolaridadetext,
+.tooltiplocaltext,
+.tooltipliberdadeprivtext,
+.tooltipcontatosntext,
+.tooltipoxtipocontatostext,
+.tooltipassinaturatext,
+.tooltipenderecotext,
+.tooltipbairrotext,
+.tooltipceptext,
+.tooltipresidenciauftext,
+.tooltipemailtext,
+.tooltiptiptelefonestext,
+.tooltipobstext,
+.tooltipacomptext,
+.tooltippessoastext,
+.tooltippreenchimentotext,
+.tooltippreenchimentosustext,
+.tooltipassinaturausutext {
+    visibility: hidden;
+    width: 220px;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 100%;
+    margin-left: 10px;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
