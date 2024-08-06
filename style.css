@@ -7,6 +7,43 @@ body {
     padding: 0;
 }
 
+/* Tamanhos inputs */
+
+#namesocial,
+#name,
+#namemae {
+    width: 500px;
+    font-size: 15px;
+}
+
+#enderecoa {
+    width: 1300px;
+    font-size: 15px;
+}
+
+#bairro,
+#cep {
+    width: 580px;
+    font-size: 15px;
+}
+
+#residenciauf,
+#email {
+    width: 600px;
+    font-size: 15px;
+}
+
+#autorizadap {
+    width: 650px;
+    font-size: 15px;
+}
+
+#observacoes {
+    width: 300px;
+    padding: 60px;
+    font-size: 15px;
+}
+
 .form1 {
     border: 2px solid transparent;
     background-color: rgb(181, 181, 181);
@@ -15,18 +52,161 @@ body {
     text-align: center;
 }
 
+
 .fieldh1 {
     background-color: rgb(181, 181, 181);
     height: 40px;
-    text-align: center;
     font-size: 22pt;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
 .container1 {
+    border: 2px solid transparent;
+    background-color: rgb(181, 181, 181);
+    max-width: 1400px;
+    margin-left: 37px;
+    text-align: center;
     display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+
+.container2 {
+    border: 2px solid transparent;
+    background-color: rgb(181, 181, 181);
+    max-width: 1400px;
+    margin-left: 250px;
+    text-align: center;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.container3 {
+    border: 2px solid transparent;
+    background-color: rgb(181, 181, 181);
+    max-width: 1400px;
+    margin-left: 250px;
+    text-align: center;
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+}
+
+.container4 {
+    border: 2px solid transparent;
+    background-color: rgb(181, 181, 181);
+    max-width: 1400px;
+    margin-left: 250px;
+    text-align: center;
+    display: flex;
+    gap: 82px;
+    justify-content: center;
+}
+
+.container5 {
+    border: 2px solid transparent;
+    background-color: rgb(181, 181, 181);
+    max-width: 1400px;
+    margin-left: 250px;
+    text-align: center;
+    display: flex;
+    gap: 82px;
+    justify-content: center;
+}
+
+.container6 {
+    border: 2px solid transparent;
+    background-color: rgb(181, 181, 181);
+    max-width: 1400px;
+    margin-left: 250px;
+    text-align: center;
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+
+.boxexterno2 {
+    display: flex;
+    gap: 100px;
+}
+
+.container7 {
+    border: 2px solid transparent;
+    background-color: rgb(181, 181, 181);
+    max-width: 1400px;
+    margin-left: 250px;
+    text-align: center;
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+
+.container8 {
+    border: 2px solid transparent;
+    background-color: rgb(181, 181, 181);
+    max-width: 1400px;
+    text-align: center;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.container9 {
+    border: 2px solid transparent;
+    background-color: rgb(181, 181, 181);
+    max-width: 1400px;
+    text-align: center;
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+}
+
+.main-container {
+    display: flex;
+    gap: 5px;
+}
+
+.container10,
+.container11 {
+    border: 2px solid transparent;
+    background-color: rgb(181, 181, 181);
+    max-width: 1400px;
+    text-align: center;
+    display: flex;
+    gap: 11px;
+    justify-content: center;
+}
+
+.container12 {
+    border: 2px solid transparent;
+    background-color: rgb(181, 181, 181);
+    max-width: 1400px;
+    margin-left: 250px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.fieldexterno4 {
+    display: flex;
+    gap: 20px;
+    /* Ajuste o valor do gap conforme necessário */
+}
+
+.fieldbox34,
+.fieldbox35 {
+    border: 1px solid #000;
+    /* Apenas para visualização, ajuste conforme necessário */
+    padding: 10px;
+    /* Ajuste conforme necessário */
+}
+
+.fieldinterno1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .fieldbox1,
@@ -37,6 +217,91 @@ body {
     min-width: 200px;
     padding: 10px;
     box-sizing: border-box;
+}
+
+.fieldbox5 {
+    border: 2px solid transparent;
+    background-color: rgb(181, 181, 181);
+    max-width: 1348px;
+    margin-left: 250px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.fieldbox6,
+.fieldbox7,
+.fieldbox8 {
+    border: 1px solid transparent;
+    background-color: rgb(181, 181, 181);
+    max-width: 1350px;
+    margin-left: 250px;
+    text-align: left;
+    padding-left: 40px;
+
+}
+
+.fieldbox17 {
+    border: 2px solid transparent;
+    background-color: rgb(181, 181, 181);
+    max-width: 1348px;
+    margin-left: 250px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.fieldbox21,
+.fieldbox22 {
+    flex: 1;
+    min-width: 555px;
+    margin: 5px;
+}
+
+.fieldexterno2 {
+    border: 2px solid transparent;
+    background-color: rgb(181, 181, 181);
+    max-width: 1376px;
+    margin-left: 250px;
+    text-align: left;
+}
+
+.fieldexterno3 {
+    border: 2px solid transparent;
+    background-color: rgb(181, 181, 181);
+    max-width: 1348px;
+    margin-left: 250px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.fieldbox23 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    min-width: 300px;
+}
+
+.fieldbox24 {
+    flex: 1;
+    min-width: 500px;
+    margin: 5px;
+}
+
+.fieldbox33 {
+    border: 2px solid transparent;
+    background-color: rgb(181, 181, 181);
+    padding: 10px;
+    max-width: 500px;
+    text-align: center;
+}
+
+.fieldbox33a {
+    border: 2px solid transparent;
+    background-color: rgb(181, 181, 181);
+    max-width: 1348px;
+    margin-left: 250px;
+    text-align: left;
+    padding-left: 40px;
 }
 
 /*Tooltips*/
@@ -96,4 +361,14 @@ body {
     transform: translateY(-50%);
     opacity: 0;
     transition: opacity 0.3s;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente, se necessário */
+    height: 100vh;
+    /* Opcional: ajusta a altura do contêiner, se necessário */
 }

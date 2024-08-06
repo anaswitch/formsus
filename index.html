@@ -13,8 +13,8 @@
     <div class="form1">
         <form action="" method="post">
             <p class="fieldh1">Formulário de Cadastro de Usuário SUS</p>
-            <fieldset class="fieldexterno">
-                <div class="container1">
+            <div class="container1">
+                <fieldset class="fieldexterno">
                     <div class="tooltip">
                         <label for="CPF">CPF</label>
                         <div class="tooltipcpftext"> Informar o número do CPF corretamente (preenchimento obrigatório).
@@ -24,43 +24,46 @@
                         <i class="fi fi-br-search"></i>
                     </div>
                     <input type="text" id="cpf" name="cpf[]" required maxlength="11" max-widht="11">
-            </fieldset>
-            <fieldset class="fieldbox2">
-                <div class="tooltip">
-                    <div class="tooltipcnstext"> Número a ser preenchido de acordo com o cartão nacional de saúde
-                        (cartão SUS) do(a) usuário(a). Caso o(a) usuário(a)
-                        SUS seja cadastrado no SISCEL – Sistema de Controle de Exames Laboratoriais, o número do cartão
-                        do SUS virá preenchido automaticamente.
+                </fieldset>
+                <fieldset class="fieldbox2">
+                    <div class="tooltip">
+                        <div class="tooltipcnstext"> Número a ser preenchido de acordo com o cartão nacional de saúde
+                            (cartão SUS) do(a) usuário(a). Caso o(a) usuário(a)
+                            SUS seja cadastrado no SISCEL – Sistema de Controle de Exames Laboratoriais, o número do
+                            cartão
+                            do SUS virá preenchido automaticamente.
+                        </div>
+                        <label for="CNS"> CNS - Cartão Nacional de Saúde</label>
+                        <i class="fi fi-br-search"></i>
                     </div>
-                    <label for="CNS"> CNS - Cartão Nacional de Saúde</label>
-                    <i class="fi fi-br-search"></i>
-                </div>
-
-                <input type="text" id="cns" name="cns[]">
-            </fieldset>
-            <fieldset class="fieldbox3">
-                <div class="tooltip">
-                    <div class="tooltipsinantext">Informar o número informado no Sistema de Informação de Agravos de
-                        Notificação. </div>
-                    <label for="SINAN">SINAN</label>
-                    <i class="fi fi-br-search"></i>
-                </div>
-                <input type="text" id="sinan" name="sinan[]">
-            </fieldset>
-            <fieldset class="fieldbox4">
-                <div class="tooltip">
-                    <div class="tooltipprontuariotext">Número do Prontuário do(a) Usuário(a) SUS.</div>
-                    <label for="prontuario">Prontuário</label>
-                    <i class="fi fi-br-search"></i>
-                </div>
-                <input type="text" id="prontuario" name="prontuario[]">
-            </fieldset>
+                    <input type="text" id="cns" name="cns[]">
+                </fieldset>
+                <fieldset class="fieldbox3">
+                    <div class="tooltip">
+                        <div class="tooltipsinantext">Informar o número informado no Sistema de Informação de Agravos de
+                            Notificação. </div>
+                        <label for="SINAN">SINAN</label>
+                        <i class="fi fi-br-search"></i>
+                    </div>
+                    <input type="text" id="sinan" name="sinan[]">
+                </fieldset>
+                <fieldset class="fieldbox4">
+                    <div class="tooltip">
+                        <div class="tooltipprontuariotext">Número do Prontuário do(a) Usuário(a) SUS.</div>
+                        <label for="prontuario">Prontuário</label>
+                        <i class="fi fi-br-search"></i>
+                    </div>
+                    <input type="text" id="prontuario" name="prontuario[]">
+                </fieldset>
+            </div>
     </div>
     <fieldset class="fieldbox5">
         <div class="tooltip">
-            <div class="tooltipidsocialtext">Se a pessoa se identificar como mulher transexual, homem transexual ou
+            <div class="tooltipidsocialtext">Se a pessoa se identificar como mulher transexual, homem transexual
+                ou
                 travesti/mulher travesti, perguntar
-                com qual nome de identificação prefere ser chamado(a), se pelo nome social ou pelo nome de registro
+                com qual nome de identificação prefere ser chamado(a), se pelo nome social ou pelo nome de
+                registro
                 civil. Sempre se referir à pessoa pelo seu nome de
                 preferência (preenchimento obrigatório).</div>
             <p id="textocaixa1">
@@ -72,7 +75,8 @@
     </fieldset>
     <fieldset class="fieldbox6">
         <div class="tooltip">
-            <div class="tooltipnameciviltext">Nome completo do(a) usuário(a) SUS, sem qualquer abreviação, conforme um
+            <div class="tooltipnameciviltext">Nome completo do(a) usuário(a) SUS, sem qualquer abreviação,
+                conforme um
                 documento de identidade oficial
                 (preenchimento obrigatório). </div>
             <label for="name">Nome Completo do Usuário - Civil*</label>
@@ -82,9 +86,11 @@
     </fieldset>
     <fieldset class="fieldbox7">
         <div class="tooltip">
-            <div class="tooltipnamesocialtext">De acordo com o decreto 8.727/2016, é a designação pela qual a pessoa
+            <div class="tooltipnamesocialtext">De acordo com o decreto 8.727/2016, é a designação pela qual a
+                pessoa
                 travesti ou transexual se identifica e é socialmente reconhecida.
-                Preencher apenas para os(as) usuários(as) que possuírem nome social que divirja do nome de registro.
+                Preencher apenas para os(as) usuários(as) que possuírem nome social que divirja do nome de
+                registro.
             </div>
             <label for="name">Nome Social*</label>
             <i class="fi fi-br-search"></i>
@@ -101,105 +107,121 @@
         </div>
         <input type="text" id="namemae" name="namemae[]" required>
     </fieldset>
-    <fieldset class="fieldbox9">
-        <div class="tooltip">
-            <div class="tooltipdatanasctext">Informar a data de nascimento do(a) Usuário(a) SUS (preenchimento
-                obrigatório).</div>
-            <label for="date">Data de Nascimento*</label>
-            <i class="fi fi-br-search"></i>
-        </div>
-        <input type="date" id="datanasc" name="datanasc[]" required>
-    </fieldset>
-    <fieldset class="fieldbox10">
-        <div class="tooltip">
-            <div class="tooltipracatext">Pedir ao(á) usuário(a) que refira, dentre as opções disponíveis, sua raça/cor.É
-                importante observar que esta classificação deverá ser auto-referida.(Preenchimento obrigatório).</div>
-            <p id="textocaixaraca">Raça/Cor* <i class="fi fi-br-search"></i></p>
-        </div>
-        <input type="radio" id="racaamarela" value="racaamarela" name="raca" required> Amarela
-        <input type="radio" id="racabranca" value="racabranca" name="raca" required> Branca
-        <input type="radio" id="racapreta" value="racapreta" name="raca" required> Preta
-        <input type="radio" id="racaparda" value="racaparda" name="raca" required> Parda
-        <input type="radio" id="racaindigena" value="racaindigena" name="raca" required> Indígena
-        <input type="radio" id="racanull" value="racanull" name="raca" required> Ignorada
-    </fieldset>
-    <fieldset class="fieldbox11">
-        <div class="tooltip">
-            <div class="tooltipsexonasctext">Marcar de acordo com documento de identificação do(a) usuário(a).</div>
-            <p class="sexo">
-                Sexo atibuído ao Nascimento* <i class="fi fi-br-search"></i>
-            </p>
-        </div>
-        <input type="radio" id="sexofem" value="sexofem" name="sexo" required> Feminino
-        <input type="radio" id="sexomasc" value="sexomasc" name="sexo" required> Masculino
-        <input type="radio" id="sexoint" value="sexoint" name="sexo" required> Intersexo
-    </fieldset>
-    <fieldset class="fieldbox12">
-        <div class="tooltip">
-            <div class="tooltipidgenerotext">é a percepção que uma pessoa tem de si como sendo homem, mulher, mulher
-                trans, homem trans, ou travesti/mulher
-                travesti, independentemente de seu órgão genital de nascimento e orientação sexual. Para identidade de
-                gênero, marque sempre como a pessoa se
-                percebe ou se define. A resposta para esse item deve ser sempre autodeclarada, mesmo que a opinião do
-                profissional de saúde não coincida com a
-                declarada pelo(a) usuário(a).</div>
-            <p class="idgenero">
-                Identidade de Gênero* <i class="fi fi-br-search"></i>
-            </p>
-        </div>
-        <input type="radio" id="sexocisf" value="sexocisf" name="sexoid" required> Mulher CIS
-        <input type="radio" id="sexocism" value="sexocism" name="sexoid" required> Homem CIS
-        <input type="radio" id="sexoftrans" value="sexoftrans" name="sexoid" required> Mulher Trans
-        <input type="radio" id="sexomtrans" value="sexomtrans" name="sexoid" required> Homem Trans
-        <input type="radio" id="sexotras" value="sexotras" name="sexoid" required> Travesti
-        <input type="radio" id="sexonbinario" value="sexonbinario" name="sexoid" required> Não Binário
-    </fieldset>
-    <fieldset class="fieldbox13">
-        <div class="tooltip">
-            <div class="tooltiporisexualtext">É por quem a pessoa se sente atraída afetiva e sexualmente, podendo ser
-                pessoas do mesmo gênero (homossexual), de
-                gênero diferente (heterossexual) ou por ambos os gêneros (bissexual). A resposta para esse item deve ser
-                sempre autodeclarada, mesmo que a
-                opinião do profissional de saúde não coincida com a declarada pelo (a) usuário (a).</div>
-            <p class="orientacaosexo">
-                Orientação Sexual*<i class="fi fi-br-search"></i>
-            </p>
-        </div>
-        <input type="radio" id="orihetero" value="orihetero" name="sexoori" required> Heterosseuxal
-        <input type="radio" id="oribi" value="oribi" name="sexoori" required> Bissexual
-        <input type="radio" id="oritodes" value="oritodes" name="sexoori" required> Homossexual/Gay/Lésbica
-    </fieldset>
-    <fieldset class="fieldbox14">
-        <div class="tooltip">
-            <div class="tooltipcidadeuftext">Nome da cidade de nascimento e UF (preenchimento obrigatório).</div>
-            <label for="cidadeuf"> Cidade de Nascimento(Cidade/UF)*</label>
-            <i class="fi fi-br-search"></i>
-        </div>
-        <input type="text" id="cidadeuf" name="cidadeuf[]" required>
-    </fieldset>
-    <fieldset class="fieldbox15">
-        <div class="tooltip">
-            <div class="tooltippaisnasctext">Informar o país de nascimento do(a) Usuário(a) SUS (preenchimento
-                obrigatório).</div>
-            <label for="paisnasc">
-                Pais de Nascimento*
-            </label>
-            <i class="fi fi-br-search"></i>
-        </div>
-        <input type="text" id="paisnasc" name="paisnasc[]" required>
-    </fieldset>
-    <fieldset class="fieldbox16">
-        <div class="tooltip">
-            <div class="tooltipnacitext">Informar a nacionalidade do CPF do(a) Usuário(a) SUS (preenchimento
-                obrigatório).</div>
-            <label for="naci">Nacionalidade*</label>
-            <i class="fi fi-br-search"></i>
-        </div>
-        <input type="text" name="nacionalidade[]" id="nacionalidade" required>
-    </fieldset>
+    <div class="container2">
+        <fieldset class="fieldbox9">
+            <div class="tooltip">
+                <div class="tooltipdatanasctext">Informar a data de nascimento do(a) Usuário(a) SUS (preenchimento
+                    obrigatório).</div> <br>
+                <label for="date">Data de Nascimento*</label>
+                <i class="fi fi-br-search"></i>
+            </div>
+            <input type="date" id="datanasc" name="datanasc[]" required>
+        </fieldset>
+        <fieldset class="fieldbox10">
+            <div class="tooltip">
+                <div class="tooltipracatext">Pedir ao(á) usuário(a) que refira, dentre as opções disponíveis, sua
+                    raça/cor.É
+                    importante observar que esta classificação deverá ser auto-referida.(Preenchimento obrigatório).
+                </div>
+                <p id="textocaixaraca">Raça/Cor* <i class="fi fi-br-search"></i></p>
+            </div>
+            <input type="radio" id="racaamarela" value="racaamarela" name="raca" required> Amarela
+            <input type="radio" id="racabranca" value="racabranca" name="raca" required> Branca
+            <input type="radio" id="racapreta" value="racapreta" name="raca" required> Preta
+            <input type="radio" id="racaparda" value="racaparda" name="raca" required> Parda
+            <input type="radio" id="racaindigena" value="racaindigena" name="raca" required> Indígena <br>
+            <input type="radio" id="racanull" value="racanull" name="raca" required> Ignorada
+        </fieldset>
+        <fieldset class="fieldbox11">
+            <div class="tooltip">
+                <div class="tooltipsexonasctext">Marcar de acordo com documento de identificação do(a) usuário(a).
+                </div>
+                <p class="sexo">
+                    Sexo atibuído ao Nascimento* <i class="fi fi-br-search"></i>
+                </p>
+            </div>
+            <input type="radio" id="sexofem" value="sexofem" name="sexo" required> Feminino
+            <input type="radio" id="sexomasc" value="sexomasc" name="sexo" required> Masculino
+            <input type="radio" id="sexoint" value="sexoint" name="sexo" required> Intersexo
+        </fieldset>
+    </div>
+    <div class="container3">
+        <fieldset class="fieldbox12">
+            <div class="tooltip">
+                <div class="tooltipidgenerotext">é a percepção que uma pessoa tem de si como sendo homem, mulher,
+                    mulher
+                    trans, homem trans, ou travesti/mulher
+                    travesti, independentemente de seu órgão genital de nascimento e orientação sexual. Para
+                    identidade de
+                    gênero, marque sempre como a pessoa se
+                    percebe ou se define. A resposta para esse item deve ser sempre autodeclarada, mesmo que a
+                    opinião do
+                    profissional de saúde não coincida com a
+                    declarada pelo(a) usuário(a).</div>
+                <p class="idgenero">
+                    Identidade de Gênero* <i class="fi fi-br-search"></i>
+                </p>
+            </div>
+            <input type="radio" id="sexocisf" value="sexocisf" name="sexoid" required> Mulher CIS
+            <input type="radio" id="sexocism" value="sexocism" name="sexoid" required> Homem CIS
+            <input type="radio" id="sexoftrans" value="sexoftrans" name="sexoid" required> Mulher Trans
+            <input type="radio" id="sexomtrans" value="sexomtrans" name="sexoid" required> Homem Trans
+            <input type="radio" id="sexotras" value="sexotras" name="sexoid" required> Travesti <br>
+            <input type="radio" id="sexonbinario" value="sexonbinario" name="sexoid" required> Não Binário
+        </fieldset>
+        <fieldset class="fieldbox13">
+            <div class="tooltip">
+                <div class="tooltiporisexualtext">É por quem a pessoa se sente atraída afetiva e sexualmente,
+                    podendo ser
+                    pessoas do mesmo gênero (homossexual), de
+                    gênero diferente (heterossexual) ou por ambos os gêneros (bissexual). A resposta para esse item
+                    deve ser
+                    sempre autodeclarada, mesmo que a
+                    opinião do profissional de saúde não coincida com a declarada pelo (a) usuário (a).</div>
+                <p class="orientacaosexo">
+                    Orientação Sexual*<i class="fi fi-br-search"></i>
+                </p>
+            </div>
+            <input type="radio" id="orihetero" value="orihetero" name="sexoori" required> Heterosseuxal
+            <input type="radio" id="oribi" value="oribi" name="sexoori" required> Bissexual
+            <input type="radio" id="oritodes" value="oritodes" name="sexoori" required> Homossexual/Gay/Lésbica
+        </fieldset>
+    </div>
+    <div class="container4">
+        <fieldset class="fieldbox14">
+            <div class="tooltip">
+                <div class="tooltipcidadeuftext">Nome da cidade de nascimento e UF (preenchimento obrigatório).
+                </div>
+                <label for="cidadeuf"> Cidade de Nascimento(Cidade/UF)*</label>
+                <i class="fi fi-br-search"></i>
+            </div>
+            <input type="text" id="cidadeuf" name="cidadeuf[]" required>
+        </fieldset>
+        <fieldset class="fieldbox15">
+            <div class="tooltip">
+                <div class="tooltippaisnasctext">Informar o país de nascimento do(a) Usuário(a) SUS (preenchimento
+                    obrigatório).</div>
+                <label for="paisnasc">
+                    Pais de Nascimento*
+                </label>
+                <i class="fi fi-br-search"></i>
+            </div>
+            <input type="text" id="paisnasc" name="paisnasc[]" required>
+        </fieldset>
+        <fieldset class="fieldbox16">
+            <div class="tooltip">
+                <div class="tooltipnacitext">Informar a nacionalidade do CPF do(a) Usuário(a) SUS (preenchimento
+                    obrigatório).</div>
+                <label for="naci">Nacionalidade*</label>
+                <i class="fi fi-br-search"></i>
+            </div>
+            <input type="text" name="nacionalidade[]" id="nacionalidade" required>
+        </fieldset>
+    </div>
     <fieldset class="fieldbox17">
         <div class="tooltip">
-            <div class="tooltipsituacaotext">Informar se o paciente estrangeiro é residente, habitante de fronteira ou
+            <div class="tooltipsituacaotext">Informar se o paciente estrangeiro é residente, habitante de
+                fronteira ou
                 não residente.</div>
             <p id="situacao"> Situação do estrangeiro<i class="fi fi-br-search"></i>
             </p>
@@ -211,104 +233,130 @@
         <input type="radio" id="situacaonresidente" value="situacaonresidente" name="situacaoes" required>
         Não residente
     </fieldset>
-    <fieldset class="fieldbox18">
-        <div class="tooltip">
-            <div class="tooltipescolaridadetext">Preencher com o correspondete ao número de anos de estudo concluídos
-                do(a) usuário(a), dentre as faixas disponíveis.A classificação é obtida em função do número de anos dque
-                a pessoa teve acesso a estudo, e/ou o grau que a pessoa está frequentando ou frequentou. Lembretes: de
-                até 3ª série do ensino fundamental marcar"1 a 3 anos de estudo concluídos."; 4ª a 7ª série do ensino
-                fundamental marcar de "4 a 7 anos concluídos."; ensino fundamental completo ou ensino médico marcar "8 a
-                11 anos concluídos"; ensino superior completo ou incompleto marcar de "de 12 a mais anos de estudo
-                concluídos."</div>
-            <p id="escolaridade"> Escolaridade*<i class="fi fi-br-search"></i></p>
-        </div>
-        <input type="radio" id="escolaridadena" value="escolaridadena" name="escolaridade" required>
-        Nenhuma/Sem educação formal
-        <input type="radio" id="escolaridadenull" value="escolaridadenull" name="escolaridade" required>
-        Ignorado
-        <input type="radio" id="escolaridade1" value="escolaridade1" name="escolaridade" required> De 1 a 3
-        anos
-        <input type="radio" id="escolaridade2" value="escolaridade2" name="escolaridade" required> De 4 a 7
-        anos
-        <input type="radio" id="escolaridade3" value="escolaridade3" name="escolaridade" required> De 8 a 11
-        anos
-        <input type="radio" id="escolaridade4" value="escolaridade4" name="escolaridade" required> De 12 a
-        mais anos
-    </fieldset>
-    <fieldset class="fieldbox19">
-        <div class="tooltip">
-            <div class="tooltiplocaltext">Informar se o(a) usuário(a) está em situação de rua ou não.</div>
-            <p class="local">Pessoa em sutiação de rua no momento*<i class="fi fi-br-search"></i></p>
-        </div>
-        <input type="radio" id="moradorderuas" value="moradorderuas" name="moradorderua" required> Sim
-        <input type="radio" id="moradorderuan" value="moradorderuan" name="moradorderua" required> Não
-    </fieldset>
-    <fieldset class="fieldbox20">
-        <div class="tooltip">
-            <div class="tooltipliberdadeprivtext">Informar se o(a) usuário(a) está no sistema prisional ou em outra
-                instituição de privação de liberdade.</div>
-            <p class="liberdadepriv">Pessoa privada de liberdade no momento*<i class="fi fi-br-search"></i></p>
-        </div>
-        <input type="radio" id="liberdades" value="liberdades" name="lib" required> Sim
-        <input type="radio" id="liberdaden" value="liberdaden" name="lib" required> Não
-    </fieldset>
-    <fieldset class="fieldbox21">
-        <div class="tooltip">
-            <div class="tooltipcontatosntext">O preenchimento deste campo é obrigatório e requer atenção especial dos
-                profissionais. O profissional deverá perguntar ao usuário se ele
-                permite que o serviço entre em contato com ele em caso de necessidade; por exemplo, se ele não vier para
-                buscar os medicamentos em determinado mês,
-                ou se o serviço necessitar mudar data de agendamento. Além de uma autorização de contato, implica também
-                na assunção de compromisso ético dos
-                profissionais. Através desta permissão, os profissionais da farmácia comprometem-se a fazer uso
-                cauteloso das informações prestadas, sempre visando
-                resguardar ao máximo o sigilo e confidencialidade das informações. Na prática isto significa, por
-                exemplo, não identificar o remetente (no caso, a farmácia)
-                nas correspondências enviadas e respeitar estritamente a forma de contato que o usuário autorizou. Com
-                isso, o que se busca é evitar qualquer impacto
-                social negativo que possa advir da realização deste procedimento.</div>
-            <p class="contato">Permite contato*<i class="fi fi-br-search"></i></p>
-        </div>
-        <input type="radio" id="contados" value="contados" name="contato" required> Sim
-        <input type="radio" id="contadon" value="contadon" name="contado" required> Não
-
-        <fieldset class="fieldbox22">
+    <div class="container5">
+        <fieldset class="fieldbox18">
             <div class="tooltip">
-                <div class="tooltipoxtipocontatostext">Caso o usuário autorize o contato do serviço, deverão ser
-                    registradas as formas de contato por ele autorizadas.</div>
-                <p id="tipocontatos">Tipo de Contato*<i class="fi fi-br-search"></i></p>
+                <div class="tooltipescolaridadetext">Preencher com o correspondete ao número de anos de estudo
+                    concluídos
+                    do(a) usuário(a), dentre as faixas disponíveis.A classificação é obtida em função do número de
+                    anos dque
+                    a pessoa teve acesso a estudo, e/ou o grau que a pessoa está frequentando ou frequentou.
+                    Lembretes: de
+                    até 3ª série do ensino fundamental marcar"1 a 3 anos de estudo concluídos."; 4ª a 7ª série do
+                    ensino
+                    fundamental marcar de "4 a 7 anos concluídos."; ensino fundamental completo ou ensino médico
+                    marcar "8 a
+                    11 anos concluídos"; ensino superior completo ou incompleto marcar de "de 12 a mais anos de
+                    estudo
+                    concluídos."</div>
+                <p id="escolaridade"> Escolaridade*<i class="fi fi-br-search"></i></p>
             </div>
-            <input type="radio" id="tipocontadotel" value="tipocontadotel" name="tipocontados" required>
-            Telefone
-            <input type="radio" id="tipocontadocorreio" value="tipocontadocorreio" name="tipocontados" required>
-            Correio
-            <input type="radio" id="tipocontadoemail" value="tipocontadoemail" name="tipocontados" required>
-            E-mail
-            <input type="radio" id="tipocontadovisita" value="tipocontadovisita" name="tipocontados" required>
-            Visita Domicilar
-            <input type="radio" id="tipocontadoterceiros" value="tipocontadoterceiros" name="tipocontados" required>
-            Contato com terceiros
-            <input type="radio" id="tipocontadooutros" value="tipocontadooutros" name="tipocontados" required>
-            Outros
-            <fieldset class="fieldbox23">
+            <input type="radio" id="escolaridadena" value="escolaridadena" name="escolaridade" required>
+            Nenhuma/Sem educação formal
+            <input type="radio" id="escolaridadenull" value="escolaridadenull" name="escolaridade" required>
+            Ignorado <br>
+            <input type="radio" id="escolaridade1" value="escolaridade1" name="escolaridade" required> De 1 a 3
+            anos
+            <input type="radio" id="escolaridade2" value="escolaridade2" name="escolaridade" required> De 4 a 7
+            anos
+            <input type="radio" id="escolaridade3" value="escolaridade3" name="escolaridade" required> De 8 a 11
+            anos
+            <input type="radio" id="escolaridade4" value="escolaridade4" name="escolaridade" required> De 12 a
+            mais anos
+        </fieldset>
+        <fieldset class="fieldbox19">
+            <div class="tooltip">
+                <div class="tooltiplocaltext">Informar se o(a) usuário(a) está em situação de rua ou não.</div>
+                <p class="local">Pessoa em sutiação de rua no momento*<i class="fi fi-br-search"></i></p>
+            </div> <br>
+            <input type="radio" id="moradorderuas" value="moradorderuas" name="moradorderua" required> Sim
+            <input type="radio" id="moradorderuan" value="moradorderuan" name="moradorderua" required> Não
+        </fieldset>
+        <fieldset class="fieldbox20">
+            <div class="tooltip">
+                <div class="tooltipliberdadeprivtext">Informar se o(a) usuário(a) está no sistema prisional ou em
+                    outra
+                    instituição de privação de liberdade.</div>
+                <p class="liberdadepriv">Pessoa privada de liberdade no momento*<i class="fi fi-br-search"></i></p>
+            </div> <br>
+            <input type="radio" id="liberdades" value="liberdades" name="lib" required> Sim
+            <input type="radio" id="liberdaden" value="liberdaden" name="lib" required> Não
+        </fieldset>
+    </div>
+    <div class="container6">
+        <fieldset class="boxexterno2">
+            <fieldset class="fieldbox21">
                 <div class="tooltip">
-                    <div class="tooltipassinaturatext">A assinatura é obrigatória permitindo o contato ou não com o
-                        usuário.</div>
-                    <p id="assinatura2">Assinatura<i class="fi fi-br-search"></i></p>
+                    <div class="tooltipcontatosntext">O preenchimento deste campo é obrigatório e requer atenção
+                        especial dos
+                        profissionais. O profissional deverá perguntar ao usuário se ele
+                        permite que o serviço entre em contato com ele em caso de necessidade; por exemplo, se ele não
+                        vier para
+                        buscar os medicamentos em determinado mês,
+                        ou se o serviço necessitar mudar data de agendamento. Além de uma autorização de contato,
+                        implica também
+                        na assunção de compromisso ético dos
+                        profissionais. Através desta permissão, os profissionais da farmácia comprometem-se a fazer uso
+                        cauteloso das informações prestadas, sempre visando
+                        resguardar ao máximo o sigilo e confidencialidade das informações. Na prática isto significa,
+                        por
+                        exemplo, não identificar o remetente (no caso, a farmácia)
+                        nas correspondências enviadas e respeitar estritamente a forma de contato que o usuário
+                        autorizou. Com
+                        isso, o que se busca é evitar qualquer impacto
+                        social negativo que possa advir da realização deste procedimento.</div>
+                    <p class="contato">Permite contato*<i class="fi fi-br-search"></i></p>
+                </div> <br>
+                <input type="radio" id="contados" value="contados" name="contato" required> Sim
+                <input type="radio" id="contadon" value="contadon" name="contado" required> Não
+            </fieldset>
+            <fieldset class="fieldbox22">
+                <div class="tooltip">
+                    <div class="tooltipoxtipocontatostext">Caso o usuário autorize o contato do serviço, deverão ser
+                        registradas as formas de contato por ele autorizadas.</div>
+                    <p id="tipocontatos">Tipo de Contato*<i class="fi fi-br-search"></i></p>
                 </div>
-                <p id="assinatura">_________________________________________</p>
+                <input type="radio" id="tipocontadotel" value="tipocontadotel" name="tipocontados" required>
+                Telefone
+                <input type="radio" id="tipocontadocorreio" value="tipocontadocorreio" name="tipocontados" required>
+                Correio
+                <input type="radio" id="tipocontadoemail" value="tipocontadoemail" name="tipocontados" required>
+                E-mail<br>
+                <input type="radio" id="tipocontadovisita" value="tipocontadovisita" name="tipocontados" required>
+                Visita Domicilar
+                <input type="radio" id="tipocontadoterceiros" value="tipocontadoterceiros" name="tipocontados" required>
+                Contato com terceiros<br>
+                <input type="radio" id="tipocontadooutros" value="tipocontadooutros" name="tipocontados" required>
+                Outros
+            </fieldset>
+        </fieldset>
+    </div>
+    <div class="container7">
+        <fieldset class="fieldbox23">
+            <div class="tooltip">
+                <div class="tooltipassinaturatext">A assinatura é obrigatória permitindo o contato ou não
+                    com o
+                    usuário.</div>
+                <p id="assinatura2">Assinatura<i class="fi fi-br-search"></i></p>
+            </div>
+            <p id="assinatura">
+                ___________________________________________________________________________________________________________________________
+            </p>
+            <fieldset class="fieldinterno1">
+
                 <p id="textofield23"> Caso não compareça ao tratamento nas datas agendadas, autorizo este
                     serviço de saúde a entrar em contato comigo, respeitando o meu direito a privacidade e
                     sigilo das informações.Somente preencher os dados de endereço se o usuário autorizar o
                     contato.</p>
             </fieldset>
         </fieldset>
-    </fieldset>
-    </fieldset>
+    </div>
+
     <fieldset class="fieldexterno2">
-        <fieldset class="fieldbox23">
+        <fieldset class="fieldbox24">
             <div class="tooltip">
-                <div class="tooltipenderecotext">Refere-se ao endereço de residência do usuário - nome da rua, avenida,
+                <div class="tooltipenderecotext">Refere-se ao endereço de residência do usuário - nome da rua,
+                    avenida,
                     entre outros. Observar que as informações de endereços (exceto
                     município) só deverão ser preenchidas caso o usuário autorize contato.</div>
                 <label for="endereco"> Endereço:</label>
@@ -316,90 +364,107 @@
             </div>
             <input type="text" id="enderecoa" name="enderecoa[]">
         </fieldset>
-        <fieldset class="fieldbox25">
-            <div class="tooltip">
-                <div class="tooltipbairrotext">Refere-se ao município, cidade de residência do(a) usuário(a).</div>
-                <label for="bairro"> Bairro:</label>
-                <i class="fi fi-br-search"></i>
-            </div>
-            <input type="text" id="bairro" name="bairro[]">
-        </fieldset>
-        <fieldset class="fieldbox26">
-            <div class="tooltip">
-                <div class="tooltipceptext">Introduzir o Código de Endereço Postal correspondente ao endereço de
-                    resiência do(a) usuário(a).</div>
-                <label for="cep"> CEP </label>
-                <i class="fi fi-br-search"></i>
-            </div>
-            <input type="text" id="cep" name="cep[]">
-        </fieldset>
-        <fieldset class="fieldbox27">
-            <div class="tooltip">
-                <div class="tooltipresidenciauftext">Refere-se ao município, cidade de residência do(a) usuário(a).
+        <div class="container8">
+            <fieldset class="fieldbox25">
+                <div class="tooltip">
+                    <div class="tooltipbairrotext">Refere-se ao município, cidade de residência do(a) usuário(a).
+                    </div>
+                    <label for="bairro"> Bairro:</label>
+                    <i class="fi fi-br-search"></i>
                 </div>
-                <label for="residenciauf"> Cidade de Residência(Cidade/UF):</label>
-                <i class="fi fi-br-search"></i>
+                <input type="text" id="bairro" name="bairro[]">
+            </fieldset>
+            <fieldset class="fieldbox26">
+                <div class="tooltip">
+                    <div class="tooltipceptext">Introduzir o Código de Endereço Postal correspondente ao endereço de
+                        resiência do(a) usuário(a).</div>
+                    <label for="cep"> CEP </label>
+                    <i class="fi fi-br-search"></i>
+                </div>
+                <input type="text" id="cep" name="cep[]">
+            </fieldset>
+        </div>
+        <div class="container9">
+            <fieldset class="fieldbox27">
+                <div class="tooltip">
+                    <div class="tooltipresidenciauftext">Refere-se ao município, cidade de residência do(a)
+                        usuário(a).
+                    </div>
+                    <label for="residenciauf"> Cidade de Residência(Cidade/UF):</label>
+                    <i class="fi fi-br-search"></i>
+                </div>
+                <input type="text" id="residenciauf" name="residenciauf[]" required>
+            </fieldset>
+            <fieldset class="fieldbox28">
+                <div class="tooltip">
+                    <div class="tooltipemailtext">E-mail de contato do(a) usuário(a)</div>
+                    <label for="email"> E-mail:</label>
+                    <i class="fi fi-br-search"></i>
+                </div>
+                <input type="email" id="email" name="email[]">
+            </fieldset>
+        </div>
+        <div class="main-container">
+            <div class="container10">
+                <fieldset class="fieldbox29">
+                    <div class="tooltip">
+                        <div class="tooltiptiptelefonestext">Informar se o telefone é residencial, comercial ou celular.
+                            No do
+                            telefone deve ser precedido pelo DDD. Poderão ser
+                            registrados mais de um número.</div>
+                        <p id="tipocontatos">Tipo de telefone:<i class="fi fi-br-search"></i></p>
+                    </div>
+                    <input type="radio" id="tiporesidencial1" value="tipotelefone1" name="tipocontados1">
+                    Residencial
+                    <input type="radio" id="tipocomercial1" value="tipotelefone1" name="tipocontados1">
+                    Comercial
+                    <input type="radio" id="tipocelular1" value="tipotelefone1" name="tipocontados1">
+                    Celular
+                </fieldset>
+                <fieldset class="fieldbox31">
+                    <label for="telcontato1"> Telefone para contato(DDD+Número):</label> <br>
+                    <input type="number" id="contato1" name="contato1[]">
+                </fieldset>
             </div>
-            <input type="text" id="residenciauf" name="residenciauf[]" required>
-        </fieldset>
-        <fieldset class="fieldbox28">
-            <div class="tooltip">
-                <div class="tooltipemailtext">E-mail de contato do(a) usuário(a)</div>
-                <label for="email"> E-mail:</label>
-                <i class="fi fi-br-search"></i>
+            <div class="container11">
+                <fieldset class="fieldbox30">
+                    <div class="tooltip">
+                        <div class="tooltiptiptelefonestext">Informar se o telefone é residencial, comercial ou celular.
+                            No do
+                            telefone deve ser precedido pelo DDD. Poderão ser
+                            registrados mais de um número.</div>
+                        <p id="tipocontatos">Tipo de telefone:<i class="fi fi-br-search"></i></p>
+                    </div>
+                    <input type="radio" id="tiporesidencial2" value="tipotelefone2" name="tipocontados2">
+                    Residencial
+                    <input type="radio" id="tipocomercial2" value="tipotelefone2" name="tipocontados2">
+                    Comercial
+                    <input type="radio" id="tipocelular2" value="tipotelefone2" name="tipocontados2">
+                    Celular
+                </fieldset>
+                <fieldset class="fieldbox32">
+                    <label for="telcontato2"> Telefone para contato(DDD+Número):</label> <br>
+                    <input type="number" id="contato2" name="contato2[]">
+                </fieldset>
             </div>
-            <input type="email" id="email" name="email[]">
-        </fieldset>
-        <fieldset class="fieldbox29">
-            <div class="tooltip">
-                <div class="tooltiptiptelefonestext">Informar se o telefone é residencial, comercial ou celular. No do
-                    telefone deve ser precedido pelo DDD. Poderão ser
-                    registrados mais de um número.</div>
-                <p id="tipocontatos">Tipo de telefone:<i class="fi fi-br-search"></i></p>
-            </div>
-            <input type="radio" id="tiporesidencial1" value="tipotelefone1" name="tipocontados1">
-            Residencial
-            <input type="radio" id="tipocomercial1" value="tipotelefone1" name="tipocontados1">
-            Comercial
-            <input type="radio" id="tipocelular1" value="tipotelefone1" name="tipocontados1">
-            Celular
-        </fieldset>
-        <fieldset class="fieldbox30">
-            <div class="tooltip">
-                <div class="tooltiptiptelefonestext">Informar se o telefone é residencial, comercial ou celular. No do
-                    telefone deve ser precedido pelo DDD. Poderão ser
-                    registrados mais de um número.</div>
-                <p id="tipocontatos">Tipo de telefone:<i class="fi fi-br-search"></i></p>
-            </div>
-            <input type="radio" id="tiporesidencial2" value="tipotelefone2" name="tipocontados2">
-            Residencial
-            <input type="radio" id="tipocomercial2" value="tipotelefone2" name="tipocontados2">
-            Comercial
-            <input type="radio" id="tipocelular2" value="tipotelefone2" name="tipocontados2">
-            Celular
-        </fieldset>
-        <fieldset class="fieldbox31">
-            <label for="telcontato1"> Telefone para contato(DDD+Número):</label>
-            <input type="number" id="contato1" name="contato1[]">
-        </fieldset>
-        <fieldset class="fieldbox32">
-            <label for="telcontato2"> Telefone para contato(DDD+Número):</label>
-            <input type="number" id="contato2" name="contato2[]">
-        </fieldset>
-        <fieldset class="fieldbox33">
-            <div class="tooltip">
-                <div class="tooltipobstext">Observações referentes ao telefone informado que facilitem o contato, tais
-                    como nome do contato, horário para contato, número de whatsapp,
-                    etc., ou demais informações que forem pertinentes.</div>
-                <label for="obs">Observações:</label>
-                <i class="fi fi-br-search"></i>
-            </div>
-            <input type="text">
-        </fieldset>
+            <fieldset class="fieldbox33">
+                <div class="tooltip">
+                    <div class="tooltipobstext">Observações referentes ao telefone informado que facilitem o
+                        contato, tais
+                        como nome do contato, horário para contato, número de whatsapp,
+                        etc., ou demais informações que forem pertinentes.</div>
+                    <label for="obs">Observações:</label>
+                    <i class="fi fi-br-search"></i>
+                </div>
+                <input type="text" id="observacoes">
+            </fieldset>
     </fieldset>
-    <fieldset class="fieldbox33">
+    </div>
+    </div>
+    <fieldset class="fieldbox33a">
         <div class="tooltip">
-            <div class="tooltipacomptext">Para os(as) Usuário(as) SUS atendidos na rede pública, marque um “X” em
+            <div class="tooltipacomptext">Para os(as) Usuário(as) SUS atendidos na rede pública, marque um “X”
+                em
                 pública, para aqueles(as) Usuário(as)
                 SUS atendidos por médicos particulares, indique privada. (Preenchimento obrigatório).</div>
             <p id="tipocontatos">Acompanhamento médico no momento:*<i class="fi fi-br-search"></i></p>
@@ -411,48 +476,51 @@
     </fieldset>
     <fieldset class="fieldexterno3">
         <div class="tooltip">
-            <div class="tooltippessoastext">O(a) Usuário(a) SUS, no ato do seu cadastramento, poderá indicar pessoas
+            <div class="tooltippessoastext">O(a) Usuário(a) SUS, no ato do seu cadastramento, poderá indicar
+                pessoas
                 autorizadas a retirar
                 medicamentos em seu nome, quando for necessário (no máximo 3 nomes).</div>
             <p id="field3">Pessoas autorizadas a retirar medicamento<i class="fi fi-br-search"></i></p>
         </div>
         <p id="field4"> Nome completo da pessoa autorizada 1 </p>
-        <input type="text">
+        <input type="text" id="autorizadap">
         <p id="field4"> Nome completo da pessoa autorizada 2 </p>
-        <input type="text">
+        <input type="text" id="autorizadap">
         <p id="field4"> Nome completo da pessoa autorizada 3 </p>
-        <input type="text">
+        <input type="text" id="autorizadap">
     </fieldset>
-    <fieldset class="fieldexterno4">
-        <fieldset class="fieldbox34">
-            <div class="tooltip">
-                <div class="tooltippreenchimentotext">Informar a data do atendimento com assinatura/carimbo de quem
-                    preencheu o formulário.</div>
-                <label for="preenchimento"> Responsável pelo Preenchimento:*</label>
-                <i class="fi fi-br-search"></i>
-            </div>
-            <input type="date" id="resppreencher" name="resppreencher[]" required>
-            <p id="assinaturaca">______________________________________________</p>
-            <p id="assinaturaca2" (carimbo e assinatura)</p>
+    <div class="container12">
+        <fieldset class="fieldexterno4">
+            <fieldset class="fieldbox34">
+                <div class="tooltip">
+                    <div class="tooltippreenchimentotext">Informar a data do atendimento com assinatura/carimbo de
+                        quem
+                        preencheu o formulário.</div>
+                    <label for="preenchimento"> Responsável pelo Preenchimento:*</label>
+                    <i class="fi fi-br-search"></i>
+                </div>
+                <input type="date" id="resppreencher" name="resppreencher[]" required>
+                <p id="assinaturaca">______________________________________________</p> <br>
+                <p id="assinaturaca2"> (carimbo e assinatura)</p>
+            </fieldset>
+            <fieldset class="fieldbox35">
+                <div class="tooltip">
+                    <div class="tooltippreenchimentosustext">Informar a data do atendimento com assinatura do(a)
+                        Usuário(a)
+                        SUS.</div>
+                    <label for="preenchimento"> Usuário SUS:*</label>
+                    <i class="fi fi-br-search"></i>
+                </div>
+                <input type="date" id="usupreencher" name="usupreencher[]" required>
+                <p id="assinaturausu">______________________________________________</p>
+                <div class="tooltip">
+                    <div class="tooltipassinaturausutext">Assinatura do usuário(a)</div>
+                    <p id="assinaturausu">(assinatura)<i class="fi fi-br-search"></i></p>
+                </div>
+            </fieldset>
         </fieldset>
-        <fieldset class="fieldbox35">
-            <div class="tooltip">
-                <div class="tooltippreenchimentosustext">Informar a data do atendimento com assinatura do(a) Usuário(a)
-                    SUS.</div>
-                <label for="preenchimento"> Usuário SUS:*</label>
-                <i class="fi fi-br-search"></i>
-            </div>
-            <input type="date" id="usupreencher" name="usupreencher[]" required>
-            <p id="assinaturausu">______________________________________________</p>
-            <div class="tooltip">
-                <div class="tooltipassinaturausutext">Assinatura do usuário(a)</div>
-                <p id="assinaturausu">(assinatura)<i class="fi fi-br-search"></i></p>
-            </div>
-        </fieldset>
-    </fieldset>
-    <input type="submit">
-    </form>
     </div>
+    </form>
     <script src="form.js"></script>
 </body>
 
